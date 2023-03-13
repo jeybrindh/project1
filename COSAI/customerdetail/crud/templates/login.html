@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AUTOMATIC NUMBER PLATE RECOGNITION</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    
+    
+</head>
+<body>
+    <br>
+    
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <h1 style="background-color: yellow; width: 100%; padding: 10px; text-align:center">Welcome</h1>
+        <hr style="width:100%;text-align:center;margin-top:0;background-color: yellow;">
+        <br>
+        <br>
+        <hr>
+        <img src="{% static 'car.gif' %}" width="800px">
+        <br>
+        <br>
+        <button class="btn btn-primary" width="100px" height="100px" style="background-color: yellow; text-color: black;"><a href="/index">Next</a></button>
+        <hr> <!-- add horizontal bar here -->
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+      
+   
+    {% comment %} <h1>Welcome</h1>
+    <br><br>
+    <img src="{% static 'car.gif' %}"width="800px">
+    <br><br>
+    <button class="btn btn-primary" width="20px" height="20px"><a href="/index">Next</a></button> {% endcomment %}
+
+
+    {% comment %} <script>
+        function next(){
+             <a href ="D:\cosai\myproject\newlic\templates\index.html">
+             }
+            </script> {% endcomment %}
+    
+
+    
+        
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+</body>
+</html>
